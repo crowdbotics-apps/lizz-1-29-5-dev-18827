@@ -1,0 +1,3445 @@
+import React from "react"
+import {
+  View,
+  Image,
+  ImageBackground,
+  TouchableOpacity,
+  Text,
+  Button,
+  Switch,
+  TextInput,
+  StyleSheet,
+  ScrollView
+} from "react-native"
+import DateTimePicker from "react-native-datepicker"
+import Icon from "react-native-vector-icons/FontAwesome"
+import Slider from "@react-native-community/slider"
+import { CheckBox } from "react-native-elements"
+import { SlideMenuIcon } from "../../../navigator/slideMenuIcon"
+import { connect } from "react-redux"
+export class Blank extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {}
+  }
+  static navigationOptions = ({ navigation }) => {
+    return { headerLeft: <SlideMenuIcon navigationProps={navigation} /> }
+  }
+  render = () => (
+    <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1ab3/9e32/7b0d084f592def3e1c998f3820db37a7"
+        }}
+        style={styles.ImageBackground_0_1455}
+      />
+      <View style={styles.View_0_1456}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1f41/f773/7215b6c736fe498f42d48e2db7d1e22c"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2344}
+        />
+        <View style={styles.View_I0_1456_0_2345}>
+          <Text style={styles.Text_I0_1456_0_2345}>9:41 AM</Text>
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a0d6/9634/ba7c10ccfea81b2a44522930760c78f4"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2346}
+        />
+        <View style={styles.View_I0_1456_0_2347}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2db8/4607/80724245ffc614d8102bf772d05e0345"
+            }}
+            style={styles.ImageBackground_I0_1456_0_2348}
+          />
+          <View style={styles.View_I0_1456_0_2351}>
+            <ImageBackground
+              source={{
+                uri:
+                  "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7f98/cc59/30772f318baaef5ce069548f03e5c9c6"
+              }}
+              style={styles.ImageBackground_I0_1456_0_2349}
+            />
+            <View style={styles.View_I0_1456_0_2350} />
+          </View>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3a71/a9ca/ed39fb83956723adc92f2a1932fa5a4b"
+            }}
+            style={styles.ImageBackground_I0_1456_0_2352}
+          />
+        </View>
+        <View style={styles.View_I0_1456_0_2355}>
+          <View style={styles.View_I0_1456_0_2353} />
+          <View style={styles.View_I0_1456_0_2354} />
+          <View style={styles.View_I0_1456_0_2356} />
+          <View style={styles.View_I0_1456_0_2357} />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fdaf/1493/599c215dbe141ec4e36bdcce1628d2e4"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2360}
+        />
+        <View style={styles.View_I0_1456_0_2362}>
+          <View style={styles.View_I0_1456_0_2362_0_2341} />
+          <View style={styles.View_I0_1456_0_2362_0_2342}>
+            <Text style={styles.Text_I0_1456_0_2362_0_2342}>Wedstimate</Text>
+          </View>
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e36d/93be/532f6e09be2b5797170ce63b206b9b6b"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2363}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ff44/fa8f/7f5777859feb9dac514c69d6658e7071"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2367}
+        />
+        <View style={styles.View_I0_1456_0_2368}>
+          <Text style={styles.Text_I0_1456_0_2368}>9:41 AM</Text>
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a0d6/9634/ba7c10ccfea81b2a44522930760c78f4"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2369}
+        />
+        <View style={styles.View_I0_1456_0_2370}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2db8/4607/80724245ffc614d8102bf772d05e0345"
+            }}
+            style={styles.ImageBackground_I0_1456_0_2371}
+          />
+          <View style={styles.View_I0_1456_0_2374}>
+            <ImageBackground
+              source={{
+                uri:
+                  "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7f98/cc59/30772f318baaef5ce069548f03e5c9c6"
+              }}
+              style={styles.ImageBackground_I0_1456_0_2372}
+            />
+            <View style={styles.View_I0_1456_0_2373} />
+          </View>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3a71/a9ca/ed39fb83956723adc92f2a1932fa5a4b"
+            }}
+            style={styles.ImageBackground_I0_1456_0_2375}
+          />
+        </View>
+        <View style={styles.View_I0_1456_0_2378}>
+          <View style={styles.View_I0_1456_0_2376} />
+          <View style={styles.View_I0_1456_0_2377} />
+          <View style={styles.View_I0_1456_0_2379} />
+          <View style={styles.View_I0_1456_0_2380} />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fdaf/1493/599c215dbe141ec4e36bdcce1628d2e4"
+          }}
+          style={styles.ImageBackground_I0_1456_0_2383}
+        />
+      </View>
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1457}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1458}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1459}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9cac/90af/97414dbabcb10a2061ece11b9141afb4"
+        }}
+        style={styles.ImageBackground_0_1460}
+      />
+      <View style={styles.View_0_1461}>
+        <Text style={styles.Text_0_1461}>Venues</Text>
+      </View>
+      <View style={styles.View_0_1462}>
+        <Text style={styles.Text_0_1462}>Photographers</Text>
+      </View>
+      <View style={styles.View_0_1463}>
+        <Text style={styles.Text_0_1463}>Caterers</Text>
+      </View>
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1464}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1465}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1466}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1467}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1468}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1469}
+      />
+      <View style={styles.View_0_1470}>
+        <Text style={styles.Text_0_1470}>Planners</Text>
+      </View>
+      <View style={styles.View_0_1471}>
+        <Text style={styles.Text_0_1471}>DJ’s</Text>
+      </View>
+      <View style={styles.View_0_1472}>
+        <Text style={styles.Text_0_1472}>Flowers</Text>
+      </View>
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1473}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1474}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1475}
+      />
+      <View style={styles.View_0_1476}>
+        <Text style={styles.Text_0_1476}>Photo Booths</Text>
+      </View>
+      <View style={styles.View_0_1477}>
+        <Text style={styles.Text_0_1477}>Live Music</Text>
+      </View>
+      <View style={styles.View_0_1478}>
+        <Text style={styles.Text_0_1478}>Invitations</Text>
+      </View>
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1479}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1480}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1481}
+      />
+      <View style={styles.View_0_1482}>
+        <Text style={styles.Text_0_1482}>Event Rentals</Text>
+      </View>
+      <View style={styles.View_0_1483}>
+        <Text style={styles.Text_0_1483}>Cakes</Text>
+      </View>
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1484}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1485}
+      />
+      <ImageBackground
+        source={{
+          uri:
+            "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0941/3e21/81940d6d8710f479f0422c09219dd917"
+        }}
+        style={styles.ImageBackground_0_1486}
+      />
+      <View style={styles.View_0_1487}>
+        <Text style={styles.Text_0_1487}>Attire</Text>
+      </View>
+      <View style={styles.View_0_1488}>
+        <Text style={styles.Text_0_1488}>Videographers</Text>
+      </View>
+      <View style={styles.View_0_1489}>
+        <Text style={styles.Text_0_1489}>Transportation</Text>
+      </View>
+      <View style={styles.View_0_1490}>
+        <Text style={styles.Text_0_1490}>Make-up Artists</Text>
+      </View>
+      <View style={styles.View_0_1491}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2044/811a/0da734e452e542fe155dadfc8d314897"
+          }}
+          style={styles.ImageBackground_0_1492}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cee3/f841/8573f1816bb917a7a044defee96ec5c1"
+          }}
+          style={styles.ImageBackground_0_1495}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c745/cb51/e76f8db85d24ee5af5f278d869d847dd"
+          }}
+          style={styles.ImageBackground_0_1498}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/98ed/93a9/897f3cc0b0e3e127d46019c753dfbc33"
+          }}
+          style={styles.ImageBackground_0_1501}
+        />
+      </View>
+      <View style={styles.View_0_1503}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d542/d333/b96c66cbcfdbb5d678cf14f50b0bf5be"
+          }}
+          style={styles.ImageBackground_0_1506}
+        />
+        <View style={styles.View_0_1507}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ee78/079b/2f8aa704801f95e9032e5b4763f617da"
+            }}
+            style={styles.ImageBackground_0_1508}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/41e0/0812/afbe38269c5f85f160e1bd18a3c26024"
+            }}
+            style={styles.ImageBackground_0_1511}
+          />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/23ca/175a/9cccbae667e976cf0618d050ea158042"
+          }}
+          style={styles.ImageBackground_0_1520}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7a29/94c0/e79cdf47c9d035af7213b78e747804d9"
+          }}
+          style={styles.ImageBackground_0_1521}
+        />
+      </View>
+      <View style={styles.View_0_1522}>
+        <View style={styles.View_0_1523}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a776/20d4/73b47b2c4092bc3814ef701bd6d95b18"
+            }}
+            style={styles.ImageBackground_0_1524}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2635/eaf5/7814f9d73727486a403c821fda265c8d"
+            }}
+            style={styles.ImageBackground_0_1527}
+          />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/67e5/f9e1/7bd92cca66c4a817c0153a2a8f17a87b"
+          }}
+          style={styles.ImageBackground_0_1532}
+        />
+        <View style={styles.View_0_1533}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a680/1ba9/83b99abf4c93c705c81c2271eaf61a9e"
+            }}
+            style={styles.ImageBackground_0_1534}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d88a/dc0b/5d5fd952c9878d82b2e4f4647c97f17d"
+            }}
+            style={styles.ImageBackground_0_1537}
+          />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/752a/2c53/1a10baf44f441b949ac4bdaee1964531"
+          }}
+          style={styles.ImageBackground_0_1538}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8a1d/c603/f4960d114a6b6abe29e41005b6612b53"
+          }}
+          style={styles.ImageBackground_0_1541}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8a5f/2e7e/5169c0f437172d7c9de661cc48c13317"
+          }}
+          style={styles.ImageBackground_0_1542}
+        />
+      </View>
+      <View style={styles.View_0_1543}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8557/ae87/16c4109bad1c164ce1b8461a3b4ffae9"
+          }}
+          style={styles.ImageBackground_0_1544}
+        />
+        <View style={styles.View_0_1545}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5759/cb0b/a0562adbbd2ae5e1f42894008f64c284"
+            }}
+            style={styles.ImageBackground_0_1546}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/509b/0945/65112ccdb98ee7e1effceacd1c5e7904"
+            }}
+            style={styles.ImageBackground_0_1549}
+          />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ef74/4cc6/36ae738509eff2f104be22f57d94ab11"
+          }}
+          style={styles.ImageBackground_0_1566}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9426/08f3/aed7ef02103bbb757ad9145eee37d3a6"
+          }}
+          style={styles.ImageBackground_0_1569}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fdd6/647d/374786a0c0cb0903eb57fcf71ef07c37"
+          }}
+          style={styles.ImageBackground_0_1572}
+        />
+      </View>
+      <View style={styles.View_0_1573}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d507/0fa0/398b387efdc8de013a9ecc9d36cfff3b"
+          }}
+          style={styles.ImageBackground_0_1576}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5d25/39b1/1fa34d6dbc3c60b67b253828e2ef6feb"
+          }}
+          style={styles.ImageBackground_0_1579}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ba60/5a66/f30419c5bd0c6678dd55d8ed8f7abbc3"
+          }}
+          style={styles.ImageBackground_0_1582}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/dd47/598f/5fb934074e1bdc49d4fb0fa8b2093a17"
+          }}
+          style={styles.ImageBackground_0_1585}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5d21/2ef4/717985f684ba88d507b42a3b76219d0a"
+          }}
+          style={styles.ImageBackground_0_1586}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c13c/643b/aa63cefe20238b714cc18496e0260d68"
+          }}
+          style={styles.ImageBackground_0_1589}
+        />
+      </View>
+      <View style={styles.View_0_1590}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/248b/d30c/e2ab587f953db0979d43dc0f2ca4866e"
+          }}
+          style={styles.ImageBackground_0_1591}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5fc5/4a3b/b025471229ccb0e9bc36f3f4a52abb15"
+          }}
+          style={styles.ImageBackground_0_1594}
+        />
+      </View>
+      <View style={styles.View_0_1598}>
+        <View style={styles.View_0_1599}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2809/e70a/6006898176fd7e3c0e1f4339910be546"
+            }}
+            style={styles.ImageBackground_0_1600}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/148d/8a55/c5feb51f6dd5168057d196cfb5b8e9a0"
+            }}
+            style={styles.ImageBackground_0_1603}
+          />
+        </View>
+        <View style={styles.View_0_1604}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3bca/de52/0650ad96a55263e1f989d7a3cf4ce878"
+            }}
+            style={styles.ImageBackground_0_1605}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4891/172d/28e4b9928356c1958279943f443a1b24"
+            }}
+            style={styles.ImageBackground_0_1608}
+          />
+        </View>
+      </View>
+      <View style={styles.View_0_1611}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/89d9/4377/2747ab518c17209b36d958ae37d3b742"
+          }}
+          style={styles.ImageBackground_0_1614}
+        />
+        <View style={styles.View_0_1617}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e809/7638/b6bfb1e5e8ffab20853313394bfae3a7"
+            }}
+            style={styles.ImageBackground_0_1618}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2f63/959b/8e96b42e9d8c0814a489faf0ddfd2ba1"
+            }}
+            style={styles.ImageBackground_0_1621}
+          />
+        </View>
+      </View>
+      <View style={styles.View_0_1623}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2cb0/18c7/2d0377c166cddb53c8b977a0afbfc04a"
+          }}
+          style={styles.ImageBackground_0_1624}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b328/0b10/94d072a9803c0907f3fd4961ce0fdb62"
+          }}
+          style={styles.ImageBackground_0_1627}
+        />
+      </View>
+      <View style={styles.View_0_1629}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ac13/818e/1f0b481bffd6f299c8350933df8c5451"
+          }}
+          style={styles.ImageBackground_0_1630}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d98f/f10a/1733811f8649fa150453cfaf78603963"
+          }}
+          style={styles.ImageBackground_0_1633}
+        />
+      </View>
+      <View style={styles.View_0_1643}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5c6b/b977/c3e23636f519592e6be43a0373777f3a"
+          }}
+          style={styles.ImageBackground_0_1644}
+        />
+        <View style={styles.View_0_1645}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/cda8/406f/da14a26c10419eff36d44b6e6041b0de"
+            }}
+            style={styles.ImageBackground_0_1646}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/611b/a3c7/d9afed4ac349a899d38fae62c42d2759"
+            }}
+            style={styles.ImageBackground_0_1649}
+          />
+        </View>
+      </View>
+      <View style={styles.View_0_1652}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f18a/55ad/83d08a77ebc7a8bcb31206079e5b0c1d"
+          }}
+          style={styles.ImageBackground_0_1653}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/85bb/b50d/c901bac422e564d86a7ad1f3607d69dc"
+          }}
+          style={styles.ImageBackground_0_1656}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ef57/cdcd/e2da6d036741a70f7062e83b0964ae1d"
+          }}
+          style={styles.ImageBackground_0_1657}
+        />
+        <View style={styles.View_0_1658}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ee78/079b/2f8aa704801f95e9032e5b4763f617da"
+            }}
+            style={styles.ImageBackground_0_1659}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4b84/ea29/0ddae891c3e495663e60201878719f02"
+            }}
+            style={styles.ImageBackground_0_1662}
+          />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/1b6a/34f4/f8162f5f242854e3bee6dd3ddde121d5"
+          }}
+          style={styles.ImageBackground_0_1663}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c1bd/9060/e8d2fcdd75e8b5fb539faa1e5d796382"
+          }}
+          style={styles.ImageBackground_0_1664}
+        />
+      </View>
+      <View style={styles.View_0_1665}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ed35/715e/cf47e508482c9d8be1c67f4317aad7f7"
+          }}
+          style={styles.ImageBackground_0_1666}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8d3a/3092/b345a9ac60c5c4a97832b85dcd0b41aa"
+          }}
+          style={styles.ImageBackground_0_1667}
+        />
+        <View style={styles.View_0_1670}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/589f/ce70/eb7e6eaf70ca074af744ed46d88b4e1a"
+            }}
+            style={styles.ImageBackground_0_1671}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/927e/55c4/6add371d4f74df53acc0e368fd754ed3"
+            }}
+            style={styles.ImageBackground_0_1674}
+          />
+        </View>
+      </View>
+      <View style={styles.View_0_1680}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d64c/2508/8e3a079e2f83af0cd398392694f8219b"
+          }}
+          style={styles.ImageBackground_0_1681}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/319b/2abe/cdf90c50ca8dc32f268bd869e02e375a"
+          }}
+          style={styles.ImageBackground_0_1682}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7faf/8439/56e9643a4afade996bf9c792103fefe6"
+          }}
+          style={styles.ImageBackground_0_1683}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5465/ce40/0b1d27a0ec67cb8919e4c0edcea70867"
+          }}
+          style={styles.ImageBackground_0_1686}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a96b/b055/7e85ceee3ef5b2ad8086735b0185b92d"
+          }}
+          style={styles.ImageBackground_0_1687}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/518b/86f0/290ea47d606eee472720e419767e91c4"
+          }}
+          style={styles.ImageBackground_0_1688}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/be9e/55f7/bbac5c34b5698bb2ecc7b859996c67fd"
+          }}
+          style={styles.ImageBackground_0_1689}
+        />
+        <View style={styles.View_0_1690}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7e27/ae14/478559d06bf951570ccba9894a49fa1b"
+            }}
+            style={styles.ImageBackground_0_1691}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4024/0428/81ccc1023a497922a81435dc0b58fb80"
+            }}
+            style={styles.ImageBackground_0_1694}
+          />
+        </View>
+      </View>
+      <View style={styles.View_0_1697}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9448/8e03/ce5f30fbfbd60135a28e6fa91bed1f77"
+          }}
+          style={styles.ImageBackground_0_1698}
+        />
+        <View style={styles.View_0_1701}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f1c1/b496/8952715dc61104964a2c8434ee22483b"
+            }}
+            style={styles.ImageBackground_0_1702}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/384a/f810/b3b38545c63546b1bde7a90cb46ae9b0"
+            }}
+            style={styles.ImageBackground_0_1705}
+          />
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3f63/38d3/5f3cabf17a012bfbc0730c8e15e37aa3"
+          }}
+          style={styles.ImageBackground_0_1711}
+        />
+      </View>
+      <View style={styles.View_0_1713}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/6f72/242e/24e51d90ba948b69b5bd546d9d6f8dab"
+          }}
+          style={styles.ImageBackground_0_1714}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9de5/9afd/e7106df85321b38202d1d2c2577019e5"
+          }}
+          style={styles.ImageBackground_0_1715}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5e55/066a/7339009df39e68953e7043f560f7d4d2"
+          }}
+          style={styles.ImageBackground_0_1716}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/aedd/8179/661141e8f2a68d3244032448229870ed"
+          }}
+          style={styles.ImageBackground_0_1719}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/00b7/1f2b/8fbf6422f55cddb33680cf798e64164a"
+          }}
+          style={styles.ImageBackground_0_1722}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99c0/1550/60312407f2a8a669abcea30fb3cf644a"
+          }}
+          style={styles.ImageBackground_0_1723}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e3e3/7a11/f103ff1147835ffe8709cfc5173f3ee6"
+          }}
+          style={styles.ImageBackground_0_1726}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e9de/710a/135b7e46cdf5709e65ff24d74c5c2f53"
+          }}
+          style={styles.ImageBackground_0_1729}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/61d0/5e32/7a64ab7b66361f6b4957b374cd18c1bb"
+          }}
+          style={styles.ImageBackground_0_1730}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/557a/65e2/6cfc695539f9f4bb8bcda56fc680bcd1"
+          }}
+          style={styles.ImageBackground_0_1731}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/557a/65e2/6cfc695539f9f4bb8bcda56fc680bcd1"
+          }}
+          style={styles.ImageBackground_0_1732}
+        />
+      </View>
+      <View style={styles.View_0_1733}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9f81/e6c5/062959022c8dc9c38dd2f8f8f114221c"
+          }}
+          style={styles.ImageBackground_0_1736}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/caa2/a5a8/38f1007ea166de01b893a6db724e93ba"
+          }}
+          style={styles.ImageBackground_0_1739}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b558/7d1d/07d8414370c55e29763f84ede1a58a78"
+          }}
+          style={styles.ImageBackground_0_1742}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/04e5/f1b9/56b9cff26ab3cb243b54f886385782a4"
+          }}
+          style={styles.ImageBackground_0_1745}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2218/dc9f/98d68544e6050dcc6385303c47068665"
+          }}
+          style={styles.ImageBackground_0_1746}
+        />
+        <View style={styles.View_0_1747}>
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/754e/9f7b/ac6466000910d675faead474db481fc5"
+            }}
+            style={styles.ImageBackground_0_1748}
+          />
+          <ImageBackground
+            source={{
+              uri:
+                "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/f5d5/5c64/a0edc1ca1ae53706f7fcf23814d33674"
+            }}
+            style={styles.ImageBackground_0_1751}
+          />
+        </View>
+      </View>
+      <View style={styles.View_0_1752}>
+        <Text style={styles.Text_0_1752}>
+          Choose the vendor types you  need for your wedding
+        </Text>
+      </View>
+      <View style={styles.View_0_1753} />
+      <View style={styles.View_0_1754}>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/470d/fd84/ffb33267a7252c77c285dfbdaf8b062a"
+          }}
+          style={styles.ImageBackground_0_1755}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/922f/faf2/3071f693147682a25383e4096b3f4500"
+          }}
+          style={styles.ImageBackground_0_1756}
+        />
+        <View style={styles.View_0_1757} />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a06a/ebd3/83c9941fefe3f8cc427a9dd0a49f9149"
+          }}
+          style={styles.ImageBackground_0_1760}
+        />
+        <View style={styles.View_0_1768}>
+          <Text style={styles.Text_0_1768}>DASHBOARD</Text>
+        </View>
+        <View style={styles.View_0_1769}>
+          <Text style={styles.Text_0_1769}>prefs</Text>
+        </View>
+        <View style={styles.View_0_1770}>
+          <Text style={styles.Text_0_1770}>Next</Text>
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8fc7/ef6f/45a7d328b015ddbc5c17fbc18f30273a"
+          }}
+          style={styles.ImageBackground_0_1771}
+        />
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7e75/74c2/63a37adbb05d2b02d5d87c55076cc362"
+          }}
+          style={styles.ImageBackground_0_1774}
+        />
+        <View style={styles.View_0_1779}>
+          <Text style={styles.Text_0_1779}>BACK</Text>
+        </View>
+        <ImageBackground
+          source={{
+            uri:
+              "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/9386/64fc/edb875b006e2a8fcb798700395efc937"
+          }}
+          style={styles.ImageBackground_0_1780}
+        />
+      </View>
+      <View style={styles.View_0_1781}>
+        <Text style={styles.Text_0_1781}>VENDOR TYPES</Text>
+      </View>
+      <View style={styles.View_2} />
+    </ScrollView>
+  )
+}
+
+const styles = StyleSheet.create({
+  ScrollView_1: {},
+  ImageBackground_0_1455: {
+    width: 2335,
+    minWidth: 2335,
+    height: 654,
+    minHeight: 654,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: -529,
+    top: 77
+  },
+  View_0_1456: {
+    width: 390,
+    minWidth: 390,
+    height: 78,
+    minHeight: 78,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0,
+    backgroundColor: "rgba(0, 0, 0, 0)"
+  },
+  ImageBackground_I0_1456_0_2344: {
+    flexGrow: 1,
+    width: 390,
+    height: 64,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 14
+  },
+  View_I0_1456_0_2345: {
+    flexGrow: 1,
+    width: 48.87999725341797,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 17.6800537109375,
+    top: 11
+  },
+  Text_I0_1456_0_2345: {
+    color: "rgba(0, 0, 0, 1)",
+    fontSize: 10,
+    fontWeight: "700",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  ImageBackground_I0_1456_0_2346: {
+    flexGrow: 1,
+    width: 227.760009765625,
+    height: 37.78125,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 81.1199951171875,
+    top: 0
+  },
+  View_I0_1456_0_2347: {
+    flexGrow: 1,
+    width: 27.55999755859375,
+    height: 14.015625,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 357.760009765625,
+    top: 6.09375
+  },
+  ImageBackground_I0_1456_0_2348: {
+    width: 24.96002197265625,
+    height: 14.015625,
+    top: 0,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0
+  },
+  View_I0_1456_0_2351: {
+    width: 1.559967041015625,
+    height: 4.721416473388672,
+    top: 4.875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 26
+  },
+  ImageBackground_I0_1456_0_2349: {
+    width: 4.15997314453125,
+    height: 4.875,
+    top: -0.076904296875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: -2.60009765625
+  },
+  View_I0_1456_0_2350: {
+    width: 2.600006103515625,
+    height: 4.875,
+    top: -0.076904296875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: -2.60009765625,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(151, 151, 151, 1)",
+    borderWidth: 1
+  },
+  ImageBackground_I0_1456_0_2352: {
+    width: 20.800018310546875,
+    height: 9.140625,
+    top: 2.4375,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 2.080078125
+  },
+  View_I0_1456_0_2355: {
+    flexGrow: 1,
+    width: 17.1600341796875,
+    height: 12.1875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 309.919921875,
+    top: 4.875
+  },
+  View_I0_1456_0_2353: {
+    width: 3.120025634765625,
+    height: 5.484375,
+    top: 6.703125,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  View_I0_1456_0_2354: {
+    width: 3.1199951171875,
+    height: 7.3125,
+    top: 4.875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 4.679931640625,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  View_I0_1456_0_2356: {
+    width: 3.1199951171875,
+    height: 9.75,
+    top: 2.4375,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 9.360107421875,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  View_I0_1456_0_2357: {
+    width: 3.120025634765625,
+    height: 12.1875,
+    top: 0,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 14.0400390625,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  ImageBackground_I0_1456_0_2360: {
+    flexGrow: 1,
+    width: 14.914490699768066,
+    height: 12.1875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 334.8798828125,
+    top: 6.09375
+  },
+  View_I0_1456_0_2362: {
+    flexGrow: 1,
+    width: 175,
+    height: 33,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 107,
+    top: 45,
+    backgroundColor: "rgba(0, 0, 0, 0)"
+  },
+  View_I0_1456_0_2362_0_2341: {
+    flexGrow: 1,
+    width: 175,
+    height: 33,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0,
+    backgroundColor: "rgba(0, 0, 0, 1)"
+  },
+  View_I0_1456_0_2362_0_2342: {
+    flexGrow: 1,
+    width: 175,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  Text_I0_1456_0_2362_0_2342: {
+    color: "rgba(3, 3, 3, 1)",
+    fontSize: 14,
+    fontWeight: "400",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: -0.4099999964237213,
+    textTransform: "none"
+  },
+  ImageBackground_I0_1456_0_2363: {
+    flexGrow: 1,
+    width: 30.68000030517578,
+    height: 20.109375,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 17.6800537109375,
+    top: 45.09375
+  },
+  ImageBackground_I0_1456_0_2367: {
+    flexGrow: 1,
+    width: 390,
+    height: 64,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 14
+  },
+  View_I0_1456_0_2368: {
+    flexGrow: 1,
+    width: 48.87999725341797,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 17.6800537109375,
+    top: 11
+  },
+  Text_I0_1456_0_2368: {
+    color: "rgba(0, 0, 0, 1)",
+    fontSize: 10,
+    fontWeight: "700",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  ImageBackground_I0_1456_0_2369: {
+    flexGrow: 1,
+    width: 227.760009765625,
+    height: 37.78125,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 81.1199951171875,
+    top: 0
+  },
+  View_I0_1456_0_2370: {
+    flexGrow: 1,
+    width: 27.55999755859375,
+    height: 14.015625,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 357.760009765625,
+    top: 6.09375
+  },
+  ImageBackground_I0_1456_0_2371: {
+    width: 24.96002197265625,
+    height: 14.015625,
+    top: 0,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0
+  },
+  View_I0_1456_0_2374: {
+    width: 1.559967041015625,
+    height: 4.721416473388672,
+    top: 4.875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 26
+  },
+  ImageBackground_I0_1456_0_2372: {
+    width: 4.15997314453125,
+    height: 4.875,
+    top: -0.076904296875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: -2.60009765625
+  },
+  View_I0_1456_0_2373: {
+    width: 2.600006103515625,
+    height: 4.875,
+    top: -0.076904296875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: -2.60009765625,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(151, 151, 151, 1)",
+    borderWidth: 1
+  },
+  ImageBackground_I0_1456_0_2375: {
+    width: 20.800018310546875,
+    height: 9.140625,
+    top: 2.4375,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 2.080078125
+  },
+  View_I0_1456_0_2378: {
+    flexGrow: 1,
+    width: 17.1600341796875,
+    height: 12.1875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 309.919921875,
+    top: 4.875
+  },
+  View_I0_1456_0_2376: {
+    width: 3.120025634765625,
+    height: 5.484375,
+    top: 6.703125,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  View_I0_1456_0_2377: {
+    width: 3.1199951171875,
+    height: 7.3125,
+    top: 4.875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 4.679931640625,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  View_I0_1456_0_2379: {
+    width: 3.1199951171875,
+    height: 9.75,
+    top: 2.4375,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 9.360107421875,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  View_I0_1456_0_2380: {
+    width: 3.120025634765625,
+    height: 12.1875,
+    top: 0,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 14.0400390625,
+    backgroundColor: "rgba(0, 0, 0, 1)",
+    borderColor: "rgba(255, 0, 0, 1)",
+    borderWidth: 1
+  },
+  ImageBackground_I0_1456_0_2383: {
+    flexGrow: 1,
+    width: 14.914490699768066,
+    height: 12.1875,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 334.8798828125,
+    top: 6.09375
+  },
+  ImageBackground_0_1457: {
+    width: 87,
+    minWidth: 87,
+    height: 87,
+    minHeight: 87,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19,
+    top: 268
+  },
+  ImageBackground_0_1458: {
+    width: 87,
+    minWidth: 87,
+    height: 87,
+    minHeight: 87,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 152,
+    top: 268
+  },
+  ImageBackground_0_1459: {
+    width: 87,
+    minWidth: 87,
+    height: 87,
+    minHeight: 87,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 280,
+    top: 268
+  },
+  ImageBackground_0_1460: {
+    width: 390,
+    minWidth: 390,
+    height: 891,
+    minHeight: 891,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 170
+  },
+  View_0_1461: {
+    width: 41,
+    minWidth: 41,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 42,
+    top: 365
+  },
+  Text_0_1461: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1462: {
+    width: 80,
+    minWidth: 80,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 155,
+    top: 365
+  },
+  Text_0_1462: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1463: {
+    width: 47,
+    minWidth: 47,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 303,
+    top: 365
+  },
+  Text_0_1463: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  ImageBackground_0_1464: {
+    width: 87,
+    height: 87,
+    top: 400,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19
+  },
+  ImageBackground_0_1465: {
+    width: 87,
+    height: 87,
+    top: 400,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 152
+  },
+  ImageBackground_0_1466: {
+    width: 87,
+    height: 87,
+    top: 400,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 280
+  },
+  ImageBackground_0_1467: {
+    width: 87,
+    height: 87,
+    top: 268,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19
+  },
+  ImageBackground_0_1468: {
+    width: 87,
+    height: 87,
+    top: 268,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 152
+  },
+  ImageBackground_0_1469: {
+    width: 87,
+    height: 87,
+    top: 268,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 280
+  },
+  View_0_1470: {
+    width: 47,
+    minWidth: 47,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 42,
+    top: 497
+  },
+  Text_0_1470: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1471: {
+    width: 24,
+    minWidth: 24,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 183,
+    top: 497
+  },
+  Text_0_1471: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1472: {
+    width: 42,
+    minWidth: 42,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 305.5,
+    top: 497
+  },
+  Text_0_1472: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  ImageBackground_0_1473: {
+    width: 87,
+    height: 87,
+    top: 796,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19
+  },
+  ImageBackground_0_1474: {
+    width: 87,
+    height: 87,
+    top: 796,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 152
+  },
+  ImageBackground_0_1475: {
+    width: 87,
+    height: 87,
+    top: 796,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 280
+  },
+  View_0_1476: {
+    width: 72,
+    minWidth: 72,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 26.5,
+    top: 893
+  },
+  Text_0_1476: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1477: {
+    width: 58,
+    minWidth: 58,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 166,
+    top: 893
+  },
+  Text_0_1477: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1478: {
+    width: 55,
+    minWidth: 55,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 299,
+    top: 893
+  },
+  Text_0_1478: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  ImageBackground_0_1479: {
+    width: 87,
+    height: 87,
+    top: 532,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19
+  },
+  ImageBackground_0_1480: {
+    width: 87,
+    height: 87,
+    top: 532,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 152
+  },
+  ImageBackground_0_1481: {
+    width: 87,
+    height: 87,
+    top: 532,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 280
+  },
+  View_0_1482: {
+    width: 74,
+    minWidth: 74,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 158,
+    top: 629
+  },
+  Text_0_1482: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1483: {
+    width: 35,
+    minWidth: 35,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 309,
+    top: 629
+  },
+  Text_0_1483: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  ImageBackground_0_1484: {
+    width: 87,
+    height: 87,
+    top: 664,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19
+  },
+  ImageBackground_0_1485: {
+    width: 87,
+    height: 87,
+    top: 664,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 152
+  },
+  ImageBackground_0_1486: {
+    width: 87,
+    height: 87,
+    top: 664,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 280
+  },
+  View_0_1487: {
+    width: 29,
+    minWidth: 29,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 48,
+    top: 761
+  },
+  Text_0_1487: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1488: {
+    width: 80,
+    minWidth: 80,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 155,
+    top: 761
+  },
+  Text_0_1488: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1489: {
+    width: 78,
+    minWidth: 78,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 287.5,
+    top: 761
+  },
+  Text_0_1489: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1490: {
+    width: 85,
+    minWidth: 85,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 20,
+    top: 629
+  },
+  Text_0_1490: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 10,
+    fontWeight: "300",
+    textAlign: "center",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1491: {
+    width: 57,
+    minWidth: 57,
+    height: 39,
+    minHeight: 39,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 295,
+    top: 292
+  },
+  ImageBackground_0_1492: {
+    width: 35,
+    minWidth: 35,
+    height: 36,
+    minHeight: 36,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 11,
+    top: 0
+  },
+  ImageBackground_0_1495: {
+    width: 24,
+    minWidth: 24,
+    height: 24,
+    minHeight: 24,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 17,
+    top: 5
+  },
+  ImageBackground_0_1498: {
+    width: 10,
+    minWidth: 10,
+    height: 39,
+    minHeight: 39,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1501: {
+    width: 8,
+    minWidth: 8,
+    height: 39,
+    minHeight: 39,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 49,
+    top: 0
+  },
+  View_0_1503: {
+    width: 51,
+    minWidth: 51,
+    height: 44,
+    minHeight: 44,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 170,
+    top: 287
+  },
+  ImageBackground_0_1506: {
+    width: 21,
+    minWidth: 21,
+    height: 21,
+    minHeight: 21,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 24,
+    top: 15
+  },
+  View_0_1507: {
+    width: 51,
+    minWidth: 51,
+    height: 44,
+    minHeight: 44,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1508: {
+    width: 50.82799530029297,
+    minWidth: 50.82799530029297,
+    height: 43.997047424316406,
+    minHeight: 43.997047424316406,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.0029296875
+  },
+  ImageBackground_0_1511: {
+    width: 50.82799530029297,
+    minWidth: 50.82799530029297,
+    height: 43.997047424316406,
+    minHeight: 43.997047424316406,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.0029296875
+  },
+  ImageBackground_0_1520: {
+    width: 7,
+    minWidth: 7,
+    height: 7,
+    minHeight: 7,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 28,
+    top: 19
+  },
+  ImageBackground_0_1521: {
+    width: 8,
+    minWidth: 8,
+    height: 1,
+    minHeight: 1,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 31,
+    top: 3
+  },
+  View_0_1522: {
+    width: 34,
+    minWidth: 34,
+    height: 62,
+    minHeight: 62,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 180,
+    top: 809
+  },
+  View_0_1523: {
+    width: 16,
+    minWidth: 16,
+    height: 39,
+    minHeight: 39,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 5,
+    top: 0
+  },
+  ImageBackground_0_1524: {
+    width: 15.589517593383789,
+    minWidth: 15.589517593383789,
+    height: 38.5825309753418,
+    minHeight: 38.5825309753418,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.224609375,
+    top: 0.212158203125
+  },
+  ImageBackground_0_1527: {
+    width: 15.589517593383789,
+    minWidth: 15.589517593383789,
+    height: 38.5825309753418,
+    minHeight: 38.5825309753418,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.224609375,
+    top: 0.212158203125
+  },
+  ImageBackground_0_1532: {
+    width: 7,
+    minWidth: 7,
+    height: 1,
+    minHeight: 1,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 9,
+    top: 43
+  },
+  View_0_1533: {
+    width: 26,
+    minWidth: 26,
+    height: 39,
+    minHeight: 39,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 23
+  },
+  ImageBackground_0_1534: {
+    width: 25.815156936645508,
+    minWidth: 25.815156936645508,
+    height: 38.77906799316406,
+    minHeight: 38.77906799316406,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.220947265625
+  },
+  ImageBackground_0_1537: {
+    width: 25.815156936645508,
+    minWidth: 25.815156936645508,
+    height: 38.77906799316406,
+    minHeight: 38.77906799316406,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.220947265625
+  },
+  ImageBackground_0_1538: {
+    width: 34,
+    minWidth: 34,
+    height: 62,
+    minHeight: 62,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1541: {
+    width: 34,
+    minWidth: 34,
+    height: 62,
+    minHeight: 62,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1542: {
+    width: 1,
+    minWidth: 1,
+    height: 44,
+    minHeight: 44,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 31,
+    top: 5
+  },
+  View_0_1543: {
+    width: 51,
+    minWidth: 51,
+    height: 40,
+    minHeight: 40,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 298,
+    top: 688
+  },
+  ImageBackground_0_1544: {
+    width: 38,
+    minWidth: 38,
+    height: 29,
+    minHeight: 29,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 6,
+    top: 0
+  },
+  View_0_1545: {
+    width: 51,
+    minWidth: 51,
+    height: 20,
+    minHeight: 20,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 20
+  },
+  ImageBackground_0_1546: {
+    width: 50.99885940551758,
+    minWidth: 50.99885940551758,
+    height: 18.98740005493164,
+    minHeight: 18.98740005493164,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.000244140625,
+    top: 0.0126953125
+  },
+  ImageBackground_0_1549: {
+    width: 50.99885940551758,
+    minWidth: 50.99885940551758,
+    height: 18.98740005493164,
+    minHeight: 18.98740005493164,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.000244140625,
+    top: 0.0126953125
+  },
+  ImageBackground_0_1566: {
+    width: 9,
+    minWidth: 9,
+    height: 11,
+    minHeight: 11,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 32,
+    top: 4
+  },
+  ImageBackground_0_1569: {
+    width: 9,
+    minWidth: 9,
+    height: 11,
+    minHeight: 11,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 10,
+    top: 4
+  },
+  ImageBackground_0_1572: {
+    width: 12,
+    minWidth: 12,
+    height: 12,
+    minHeight: 12,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19,
+    top: 3
+  },
+  View_0_1573: {
+    width: 47,
+    minWidth: 47,
+    height: 45,
+    minHeight: 45,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 173,
+    top: 683
+  },
+  ImageBackground_0_1576: {
+    width: 22,
+    minWidth: 22,
+    height: 22,
+    minHeight: 22,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 20,
+    top: 0
+  },
+  ImageBackground_0_1579: {
+    width: 8,
+    minWidth: 8,
+    height: 8,
+    minHeight: 8,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 27,
+    top: 7
+  },
+  ImageBackground_0_1582: {
+    width: 18,
+    minWidth: 18,
+    height: 18,
+    minHeight: 18,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 4
+  },
+  ImageBackground_0_1585: {
+    width: 7,
+    minWidth: 7,
+    height: 7,
+    minHeight: 7,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 6,
+    top: 10
+  },
+  ImageBackground_0_1586: {
+    width: 47,
+    minWidth: 47,
+    height: 45,
+    minHeight: 45,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1589: {
+    width: 47,
+    minWidth: 47,
+    height: 45,
+    minHeight: 45,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  View_0_1590: {
+    width: 62,
+    minWidth: 62,
+    height: 48,
+    minHeight: 48,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 292,
+    top: 548
+  },
+  ImageBackground_0_1591: {
+    width: 62,
+    minWidth: 62,
+    height: 48,
+    minHeight: 48,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1594: {
+    width: 62,
+    minWidth: 62,
+    height: 48,
+    minHeight: 48,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  View_0_1598: {
+    width: 32,
+    minWidth: 32,
+    height: 44,
+    minHeight: 44,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 47,
+    top: 554
+  },
+  View_0_1599: {
+    width: 14,
+    minWidth: 14,
+    height: 43,
+    minHeight: 43,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1600: {
+    width: 13.82863998413086,
+    minWidth: 13.82863998413086,
+    height: 42.56441116333008,
+    minHeight: 42.56441116333008,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.000244140625,
+    top: 0.435302734375
+  },
+  ImageBackground_0_1603: {
+    width: 13.82863998413086,
+    minWidth: 13.82863998413086,
+    height: 42.56441116333008,
+    minHeight: 42.56441116333008,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.000244140625,
+    top: 0.435302734375
+  },
+  View_0_1604: {
+    width: 15,
+    minWidth: 15,
+    height: 43,
+    minHeight: 43,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 17,
+    top: 1
+  },
+  ImageBackground_0_1605: {
+    width: 14.356607437133789,
+    minWidth: 14.356607437133789,
+    height: 42.78724670410156,
+    minHeight: 42.78724670410156,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.4259033203125,
+    top: 0.212646484375
+  },
+  ImageBackground_0_1608: {
+    width: 14.356607437133789,
+    minWidth: 14.356607437133789,
+    height: 42.78724670410156,
+    minHeight: 42.78724670410156,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.4259033203125,
+    top: 0.212646484375
+  },
+  View_0_1611: {
+    width: 24,
+    minWidth: 24,
+    height: 37,
+    minHeight: 37,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 34,
+    top: 687
+  },
+  ImageBackground_0_1614: {
+    width: 16,
+    minWidth: 16,
+    height: 9,
+    minHeight: 9,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 4,
+    top: 28
+  },
+  View_0_1617: {
+    width: 24,
+    minWidth: 24,
+    height: 28,
+    minHeight: 28,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1618: {
+    width: 23.558399200439453,
+    minWidth: 23.558399200439453,
+    height: 27.6003475189209,
+    minHeight: 27.6003475189209,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.0001220703125,
+    top: 0.05078125
+  },
+  ImageBackground_0_1621: {
+    width: 23.558399200439453,
+    minWidth: 23.558399200439453,
+    height: 27.6003475189209,
+    minHeight: 27.6003475189209,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0.0001220703125,
+    top: 0.05078125
+  },
+  View_0_1623: {
+    width: 22,
+    minWidth: 22,
+    height: 33,
+    minHeight: 33,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 66,
+    top: 691
+  },
+  ImageBackground_0_1624: {
+    width: 22,
+    minWidth: 22,
+    height: 33,
+    minHeight: 33,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1627: {
+    width: 22,
+    minWidth: 22,
+    height: 33,
+    minHeight: 33,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  View_0_1629: {
+    width: 47,
+    minWidth: 47,
+    height: 52,
+    minHeight: 52,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 300,
+    top: 418
+  },
+  ImageBackground_0_1630: {
+    width: 47,
+    minWidth: 47,
+    height: 52,
+    minHeight: 52,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1633: {
+    width: 47,
+    minWidth: 47,
+    height: 52,
+    minHeight: 52,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  View_0_1643: {
+    width: 51,
+    minWidth: 51,
+    height: 57,
+    minHeight: 57,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 37,
+    top: 278
+  },
+  ImageBackground_0_1644: {
+    width: 4,
+    minWidth: 4,
+    height: 4,
+    minHeight: 4,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 23,
+    top: 17
+  },
+  View_0_1645: {
+    width: 51,
+    minWidth: 51,
+    height: 57,
+    minHeight: 57,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1646: {
+    width: 50.46734619140625,
+    minWidth: 50.46734619140625,
+    height: 56.08203887939453,
+    minHeight: 56.08203887939453,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.2626953125
+  },
+  ImageBackground_0_1649: {
+    width: 50.46734619140625,
+    minWidth: 50.46734619140625,
+    height: 56.08203887939453,
+    minHeight: 56.08203887939453,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.2626953125
+  },
+  View_0_1652: {
+    width: 51,
+    minWidth: 51,
+    height: 44,
+    minHeight: 44,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 38,
+    top: 420
+  },
+  ImageBackground_0_1653: {
+    width: 37,
+    minWidth: 37,
+    height: 21,
+    minHeight: 21,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 5,
+    top: 23
+  },
+  ImageBackground_0_1656: {
+    width: 20,
+    minWidth: 20,
+    height: 10,
+    minHeight: 10,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 18,
+    top: 1
+  },
+  ImageBackground_0_1657: {
+    width: 4,
+    minWidth: 4,
+    height: 5,
+    minHeight: 5,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 38,
+    top: 5
+  },
+  View_0_1658: {
+    width: 51,
+    minWidth: 51,
+    height: 44,
+    minHeight: 44,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1659: {
+    width: 50.800716400146484,
+    minWidth: 50.800716400146484,
+    height: 43.76266098022461,
+    minHeight: 43.76266098022461,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.2373046875
+  },
+  ImageBackground_0_1662: {
+    width: 50.800716400146484,
+    minWidth: 50.800716400146484,
+    height: 43.76266098022461,
+    minHeight: 43.76266098022461,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.2373046875
+  },
+  ImageBackground_0_1663: {
+    width: 6,
+    minWidth: 6,
+    height: 7,
+    minHeight: 7,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 8,
+    top: 7
+  },
+  ImageBackground_0_1664: {
+    width: 5,
+    minWidth: 5,
+    height: 4,
+    minHeight: 4,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 29,
+    top: 7
+  },
+  View_0_1665: {
+    width: 47,
+    minWidth: 47,
+    height: 46,
+    minHeight: 46,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 172,
+    top: 552
+  },
+  ImageBackground_0_1666: {
+    width: 9,
+    minWidth: 9,
+    height: 1,
+    minHeight: 1,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 19,
+    top: 36
+  },
+  ImageBackground_0_1667: {
+    width: 47,
+    minWidth: 47,
+    height: 19,
+    minHeight: 19,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 27
+  },
+  View_0_1670: {
+    width: 47,
+    minWidth: 47,
+    height: 42,
+    minHeight: 42,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1671: {
+    width: 46.862831115722656,
+    minWidth: 46.862831115722656,
+    height: 41.7436408996582,
+    minHeight: 41.7436408996582,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.12109375
+  },
+  ImageBackground_0_1674: {
+    width: 46.862831115722656,
+    minWidth: 46.862831115722656,
+    height: 41.7436408996582,
+    minHeight: 41.7436408996582,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.12109375
+  },
+  View_0_1680: {
+    width: 56,
+    minWidth: 56,
+    height: 57,
+    minHeight: 57,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 169,
+    top: 415
+  },
+  ImageBackground_0_1681: {
+    width: 41,
+    minWidth: 41,
+    height: 41,
+    minHeight: 41,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 4,
+    top: 12
+  },
+  ImageBackground_0_1682: {
+    width: 35,
+    minWidth: 35,
+    height: 34,
+    minHeight: 34,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 7,
+    top: 14
+  },
+  ImageBackground_0_1683: {
+    width: 28,
+    minWidth: 28,
+    height: 28,
+    minHeight: 28,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 10,
+    top: 18
+  },
+  ImageBackground_0_1686: {
+    width: 18,
+    minWidth: 18,
+    height: 18,
+    minHeight: 18,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 15,
+    top: 23
+  },
+  ImageBackground_0_1687: {
+    width: 3,
+    minWidth: 3,
+    height: 3,
+    minHeight: 3,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 23,
+    top: 30
+  },
+  ImageBackground_0_1688: {
+    width: 4,
+    minWidth: 4,
+    height: 9,
+    minHeight: 9,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 46,
+    top: 12
+  },
+  ImageBackground_0_1689: {
+    width: 4,
+    minWidth: 4,
+    height: 9,
+    minHeight: 9,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 52,
+    top: 12
+  },
+  View_0_1690: {
+    width: 53,
+    minWidth: 53,
+    height: 57,
+    minHeight: 57,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1691: {
+    width: 52.901268005371094,
+    minWidth: 52.901268005371094,
+    height: 55.83572769165039,
+    minHeight: 55.83572769165039,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.273681640625
+  },
+  ImageBackground_0_1694: {
+    width: 52.901268005371094,
+    minWidth: 52.901268005371094,
+    height: 55.83572769165039,
+    minHeight: 55.83572769165039,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.273681640625
+  },
+  View_0_1697: {
+    width: 41,
+    minWidth: 41,
+    height: 48,
+    minHeight: 48,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 303,
+    top: 815
+  },
+  ImageBackground_0_1698: {
+    width: 13,
+    minWidth: 13,
+    height: 8,
+    minHeight: 8,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 14,
+    top: 0
+  },
+  View_0_1701: {
+    width: 41,
+    minWidth: 41,
+    height: 40,
+    minHeight: 40,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 8
+  },
+  ImageBackground_0_1702: {
+    width: 40.90228271484375,
+    minWidth: 40.90228271484375,
+    height: 39.27695083618164,
+    minHeight: 39.27695083618164,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.342041015625
+  },
+  ImageBackground_0_1705: {
+    width: 40.90228271484375,
+    minWidth: 40.90228271484375,
+    height: 39.27695083618164,
+    minHeight: 39.27695083618164,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.342041015625
+  },
+  ImageBackground_0_1711: {
+    width: 20,
+    minWidth: 20,
+    height: 13,
+    minHeight: 13,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 10,
+    top: 14
+  },
+  View_0_1713: {
+    width: 45,
+    minWidth: 45,
+    height: 50,
+    minHeight: 50,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 40,
+    top: 816.904296875
+  },
+  ImageBackground_0_1714: {
+    width: 10,
+    minWidth: 10,
+    height: 7,
+    minHeight: 7,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 23,
+    top: 12.095703125
+  },
+  ImageBackground_0_1715: {
+    width: 12,
+    minWidth: 12,
+    height: 10,
+    minHeight: 10,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 27,
+    top: 3.095703125
+  },
+  ImageBackground_0_1716: {
+    width: 19,
+    minWidth: 19,
+    height: 17,
+    minHeight: 17,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 6,
+    top: 2.095703125
+  },
+  ImageBackground_0_1719: {
+    width: 10,
+    minWidth: 10,
+    height: 25,
+    minHeight: 25,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 24.095703125
+  },
+  ImageBackground_0_1722: {
+    width: 9,
+    minWidth: 9,
+    height: 10,
+    minHeight: 10,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 1,
+    top: 14.095703125
+  },
+  ImageBackground_0_1723: {
+    width: 9,
+    minWidth: 9,
+    height: 10,
+    minHeight: 10,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 13,
+    top: 5.095703125
+  },
+  ImageBackground_0_1726: {
+    width: 10,
+    minWidth: 10,
+    height: 25,
+    minHeight: 25,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 35,
+    top: 24.095703125
+  },
+  ImageBackground_0_1729: {
+    width: 9,
+    minWidth: 9,
+    height: 10,
+    minHeight: 10,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 35,
+    top: 14.095703125
+  },
+  ImageBackground_0_1730: {
+    width: 35,
+    minWidth: 35,
+    height: 2,
+    minHeight: 2,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 5,
+    top: 0
+  },
+  ImageBackground_0_1731: {
+    width: 0.18987341225147247,
+    minWidth: 0.18987341225147247,
+    height: 13,
+    minHeight: 13,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 39.905029296875,
+    top: 0.095703125
+  },
+  ImageBackground_0_1732: {
+    width: 0.18987341225147247,
+    minWidth: 0.18987341225147247,
+    height: 13,
+    minHeight: 13,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 4.905029296875,
+    top: 0.095703125
+  },
+  View_0_1733: {
+    width: 16,
+    minWidth: 16,
+    height: 14,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 55,
+    top: 837
+  },
+  ImageBackground_0_1736: {
+    width: 5,
+    minWidth: 5,
+    height: 2,
+    minHeight: 2,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 6,
+    top: 1
+  },
+  ImageBackground_0_1739: {
+    width: 8,
+    minWidth: 8,
+    height: 8,
+    minHeight: 8,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 5,
+    top: 4
+  },
+  ImageBackground_0_1742: {
+    width: 6,
+    minWidth: 6,
+    height: 6,
+    minHeight: 6,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 6,
+    top: 5
+  },
+  ImageBackground_0_1745: {
+    width: 2,
+    minWidth: 2,
+    height: 2,
+    minHeight: 2,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 13,
+    top: 4
+  },
+  ImageBackground_0_1746: {
+    width: 1,
+    minWidth: 1,
+    height: 9,
+    minHeight: 9,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 3,
+    top: 4
+  },
+  View_0_1747: {
+    width: 16,
+    minWidth: 16,
+    height: 14,
+    minHeight: 14,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0
+  },
+  ImageBackground_0_1748: {
+    width: 15.969511032104492,
+    minWidth: 15.969511032104492,
+    height: 13.741497039794922,
+    minHeight: 13.741497039794922,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.07421875
+  },
+  ImageBackground_0_1751: {
+    width: 15.969511032104492,
+    minWidth: 15.969511032104492,
+    height: 13.741497039794922,
+    minHeight: 13.741497039794922,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 0.07421875
+  },
+  View_0_1752: {
+    width: 229,
+    minWidth: 229,
+    minHeight: 38,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 26,
+    top: 193
+  },
+  Text_0_1752: {
+    color: "rgba(132, 132, 132, 1)",
+    fontSize: 13,
+    fontWeight: "700",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_0_1753: {
+    width: 390,
+    minWidth: 390,
+    height: 99,
+    minHeight: 99,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 928,
+    backgroundColor: "rgba(239, 239, 239, 1)",
+    borderColor: "rgba(151, 151, 151, 1)",
+    borderWidth: 1
+  },
+  View_0_1754: {
+    width: 391,
+    minWidth: 391,
+    height: 90,
+    minHeight: 90,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0,
+    top: 928,
+    backgroundColor: "rgba(0, 0, 0, 0)",
+    overflow: "hidden"
+  },
+  ImageBackground_0_1755: {
+    width: 391,
+    height: 1,
+    top: 0,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 0
+  },
+  ImageBackground_0_1756: {
+    width: 24,
+    height: 23,
+    top: 15.5,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 185
+  },
+  View_0_1757: {
+    width: 140,
+    height: 6,
+    top: 83.5,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 125,
+    backgroundColor: "rgba(51, 51, 51, 1)",
+    borderColor: "rgba(151, 151, 151, 1)",
+    borderWidth: 1
+  },
+  ImageBackground_0_1760: {
+    width: 24,
+    height: 21,
+    top: 15,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 252.5
+  },
+  View_0_1768: {
+    width: 64,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 94,
+    top: 48.5
+  },
+  Text_0_1768: {
+    color: "rgba(115, 114, 114, 1)",
+    fontSize: 8,
+    fontWeight: "400",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0.061198890209198,
+    textTransform: "uppercase"
+  },
+  View_0_1769: {
+    width: 34,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 248,
+    top: 48.5
+  },
+  Text_0_1769: {
+    color: "rgba(115, 114, 114, 1)",
+    fontSize: 8,
+    fontWeight: "400",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0.061198890209198,
+    textTransform: "uppercase"
+  },
+  View_0_1770: {
+    width: 27,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 339,
+    top: 48.5
+  },
+  Text_0_1770: {
+    color: "rgba(115, 114, 114, 1)",
+    fontSize: 8,
+    fontWeight: "400",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0.061198890209198,
+    textTransform: "uppercase"
+  },
+  ImageBackground_0_1771: {
+    width: 15,
+    height: 15,
+    top: 19.5,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 345
+  },
+  ImageBackground_0_1774: {
+    width: 26,
+    height: 21,
+    top: 15.5,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 113
+  },
+  View_0_1779: {
+    width: 28,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 26,
+    top: 48.5
+  },
+  Text_0_1779: {
+    color: "rgba(115, 114, 114, 1)",
+    fontSize: 8,
+    fontWeight: "400",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0.061198890209198,
+    textTransform: "uppercase"
+  },
+  ImageBackground_0_1780: {
+    width: 15,
+    height: 15,
+    top: 19.5,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 32
+  },
+  View_0_1781: {
+    width: 274,
+    minWidth: 274,
+    minHeight: 49,
+    marginLeft: 0,
+    marginTop: 0,
+    position: "absolute",
+    left: 62,
+    top: 99
+  },
+  Text_0_1781: {
+    color: "rgba(255, 255, 255, 1)",
+    fontSize: 29,
+    fontWeight: "400",
+    textAlign: "left",
+    fontStyle: "normal",
+    letterSpacing: 0,
+    textTransform: "none"
+  },
+  View_2: { height: 1027 }
+})
+
+const mapStateToProps = state => {
+  return {}
+}
+const mapDispatchToProps = () => {
+  return {}
+}
+export default connect(mapStateToProps, mapDispatchToProps)(Blank)
